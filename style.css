@@ -40,6 +40,7 @@ nav {
     height: 2px;
     background-color: rgb(228, 226, 226);
     margin: 5px;
+    transition: all 0.3s ease;
 }
 .burger {
     display: none;
@@ -93,3 +94,14 @@ nav {
 
     }
 }
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
